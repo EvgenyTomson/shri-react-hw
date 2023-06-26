@@ -1,0 +1,44 @@
+:root {
+  --max-width: 1856px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --text-primary: #1B1F23;
+  --text-tertiary: #999FA6;
+  --gray-1: #333;
+  --orange: #F50;
+  --orange-disabled: #FFA375;
+  --border-default: #E1E3E6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.marginTop {
+  margin-top: 86px;
+}
+

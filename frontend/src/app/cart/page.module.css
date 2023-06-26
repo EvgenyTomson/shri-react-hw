@@ -1,0 +1,22 @@
+.cart {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #F5F5F5;
+}
+
+.cartTotal {
+  margin-top: 32px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-primary);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+

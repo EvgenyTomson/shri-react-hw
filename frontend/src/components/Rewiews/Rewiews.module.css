@@ -1,0 +1,63 @@
+.rewiews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rewiewItem {
+  width: 100%;
+  padding: 24px;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.rewiewImage {
+  display: block;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rewiewer {
+  color: var(--text-primary);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.rating {
+  color: var(--text-primary);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.ratingScore {
+  font-weight: 600;
+}
+
+.rewiewText {
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 24px;
+}

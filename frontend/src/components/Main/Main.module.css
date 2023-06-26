@@ -1,0 +1,7 @@
+.main {
+  padding: 24px;
+  flex: 1 1 auto;
+  display: flex;
+  gap: 23px;
+  background-color: #e1e3e6;
+}

@@ -1,0 +1,17 @@
+.footer {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gray-1);
+}
+
+.link {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.link:hover {
+  opacity: .7;
+}

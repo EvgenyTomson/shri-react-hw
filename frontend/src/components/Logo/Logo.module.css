@@ -1,0 +1,11 @@
+.logo {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.logo:hover {
+  opacity: .7;
+}

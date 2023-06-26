@@ -1,0 +1,29 @@
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.cart:hover {
+  opacity: .7;
+}
+
+.count {
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  background-color: var(--orange);
+  border-radius: 8px;
+}
+
+.basket {
+  width: 32px;
+  height: 32px;
+}

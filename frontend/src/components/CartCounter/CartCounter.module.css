@@ -1,0 +1,58 @@
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+
+.cartCounter {
+  width: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.cartButton {
+  width: 14px;
+  height: 14px;
+  box-sizing: content-box;
+  padding: 2px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: var(--orange);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.cartButton:hover {
+  opacity: .7;
+}
+
+.cartButton:disabled {
+  opacity: .4;
+  pointer-events: none;
+}
+
+.cartCount {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+
+.remove {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.remove:hover {
+  opacity: .7;
+}

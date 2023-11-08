@@ -1,6 +1,10 @@
-## Getting Started
+## Fontend для сервича поиска билетов
 
-First, run the development server:
+## Технологии
+
+Next.js, React Router, Redux Toolkit, TypeScript.
+
+Для запуска dev-сервера:
 
 ```bash
 npm run dev
